@@ -1,0 +1,51 @@
+/* Estilos de objeto */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    padding: 10px 0;
+}
+
+/* Estilos de componente */
+.header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.nav{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
